@@ -1,0 +1,7 @@
+---
+- name: this playbook will call different role
+  hosts: serverg
+  tasks:
+          - name: this will call role
+            ansible.builtin.include_role:
+                name: /root/user-role/roles

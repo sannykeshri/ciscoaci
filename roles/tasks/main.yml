@@ -1,0 +1,9 @@
+---
+- name: create user in the linux system
+  ansible.builtin.user:
+          name: "{{ item.name }}"
+          shell: "{{ item.shell }}"
+          state: present
+  loop: "{{ user }}"
+  when:  created
+
