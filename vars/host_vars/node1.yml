@@ -1,0 +1,7 @@
+---
+user:
+        - name: user3
+          shell: /bin/bash
+        - name: user4
+          shell: /bin/bash
+created: false
