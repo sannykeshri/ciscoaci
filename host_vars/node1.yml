@@ -4,4 +4,4 @@ user:
           shell: /bin/bash
         - name: user4
           shell: /bin/bash
-created: false
+created: true
