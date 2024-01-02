@@ -5,3 +5,5 @@
           - name: this will call role
             ansible.builtin.include_role:
                 name: roles
+            vars_files:
+                - vars
