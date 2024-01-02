@@ -3,7 +3,7 @@
   ansible.builtin.user:
           name: "{{ item.name }}"
           shell: "{{ item.shell }}"
-          state: present
+          state: absent
   loop: "{{ user }}"
   when:  created
 
