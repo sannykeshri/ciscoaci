@@ -1,5 +1,4 @@
 ---
-#test
 - name: this playbook will call different role
   hosts: serverg
   tasks:
